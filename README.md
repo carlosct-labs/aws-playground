@@ -1,2 +1,8 @@
 # aws-playground
-Having fun with aws:
+
+Having fun with AWS:
+
+- Infra
+- Security
+- Automation
+- Dev
