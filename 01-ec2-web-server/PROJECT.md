@@ -1,6 +1,6 @@
 # Project 01 — EC2 Web Server
 
-**Status:** In Progress  
+**Status:** Completed  
 **Difficulty:** Beginner  
 **Category:** Compute / Storage / Networking
 
@@ -61,8 +61,6 @@ This is a learning environment, so you are encouraged to experiment, test differ
 
 - Associate an IAM Role with the EC2 instance.
 - Follow the principle of least privilege.
-- Avoid storing AWS credentials or other secrets directly on the instance.
-- Review the Security Group rules and remove unnecessary access.
 
 ### 6. Cost Management
 
@@ -101,21 +99,7 @@ The repository should include:
 - **Infrastructure documentation:** the AWS resources deployed and their configuration.
 - **Implementation notes:** relevant design decisions and configuration details.
 - **Testing evidence:** screenshots or other evidence demonstrating that the requirements work.
-- **Challenges and lessons learned:** problems encountered, how they were investigated and what was learned.
 
-## Challenges
-
-Once the basic requirements are working, experiment with the following scenarios:
-
-- What happens when you stop and start the EC2 instance? Does its public IP change?
-- What happens if you block HTTP traffic in the Security Group?
-- What happens if you allow SSH from anywhere?
-- Does User Data execute again when the instance reboots?
-- What happens to the additional EBS volume when the EC2 instance is terminated?
-- Can you recover the data using a snapshot?
-- Can you launch an identical web server using an AMI?
-
-Document your observations and explain the behaviour you discover.
 
 ## Completion Criteria
 
@@ -127,5 +111,4 @@ The project is considered complete when:
 - A snapshot has been created and successfully restored.
 - A second EC2 instance has been launched from an AMI.
 - The architecture and implementation are documented.
-- The main challenges and lessons learned are recorded.
 - Unnecessary AWS resources have been cleaned up.
